@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 08:43:30  December 01, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		snake_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE10F17C8
+set_global_assignment -name TOP_LEVEL_ENTITY snake_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:43:30  DECEMBER 01, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 256
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_E1 -to clk
+set_location_assignment PIN_K9 -to stcp
+set_location_assignment PIN_B1 -to shcp
+set_location_assignment PIN_R1 -to ds
+set_location_assignment PIN_L11 -to oe
+set_location_assignment PIN_M15 -to rst_n
+set_location_assignment PIN_D1 -to vga_vsync
+set_location_assignment PIN_C2 -to vga_hsync
+set_location_assignment PIN_B4 -to rgb[0]
+set_location_assignment PIN_A2 -to rgb[1]
+set_location_assignment PIN_B5 -to rgb[2]
+set_location_assignment PIN_A6 -to rgb[3]
+set_location_assignment PIN_B6 -to rgb[4]
+set_location_assignment PIN_F6 -to rgb[5]
+set_location_assignment PIN_F7 -to rgb[6]
+set_location_assignment PIN_A7 -to rgb[7]
+set_location_assignment PIN_B7 -to rgb[8]
+set_location_assignment PIN_E8 -to rgb[9]
+set_location_assignment PIN_F8 -to rgb[10]
+set_location_assignment PIN_A8 -to rgb[11]
+set_location_assignment PIN_B8 -to rgb[12]
+set_location_assignment PIN_E7 -to rgb[13]
+set_location_assignment PIN_E6 -to rgb[14]
+set_location_assignment PIN_A5 -to rgb[15]
+set_location_assignment PIN_L7 -to led[0]
+set_location_assignment PIN_M6 -to led[1]
+set_location_assignment PIN_P3 -to led[2]
+set_location_assignment PIN_N3 -to led[3]
+set_location_assignment PIN_M2 -to key[0]
+set_location_assignment PIN_M1 -to key[1]
+set_location_assignment PIN_E15 -to key[2]
+set_location_assignment PIN_E16 -to key[3]
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_top -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_top -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_top
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_top -section_id tb_top
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/sim/questa" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1 us" -section_id tb_top
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name EDA_TEST_BENCH_FILE ../sim/tb_top.v -section_id tb_top
+set_global_assignment -name VERILOG_FILE ../rtl/snake_ctrl.v
+set_global_assignment -name VERILOG_FILE ../sim/tb_top.v
+set_global_assignment -name MIF_FILE ../../matlab/image.mif
+set_global_assignment -name VERILOG_FILE ../rtl/key_filter.v
+set_global_assignment -name VERILOG_FILE ../rtl/hc595_ctrl.v
+set_global_assignment -name VERILOG_FILE ../rtl/seg_595_dynamic.v
+set_global_assignment -name VERILOG_FILE ../rtl/VGA_control.v
+set_global_assignment -name VERILOG_FILE ../rtl/top_seg_595.v
+set_global_assignment -name VERILOG_FILE ../rtl/snake_top.v
+set_global_assignment -name VERILOG_FILE ../rtl/seg_dynamic.v
+set_global_assignment -name VERILOG_FILE ../rtl/score_ctrl.v
+set_global_assignment -name VERILOG_FILE ../rtl/game_ctrl_unit.v
+set_global_assignment -name VERILOG_FILE ../rtl/data_gen.v
+set_global_assignment -name VERILOG_FILE ../rtl/bcd_8421.v
+set_global_assignment -name VERILOG_FILE ../rtl/app_generate.v
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name QIP_FILE rom.qip
+set_global_assignment -name QIP_FILE ip_core/rom_pic_one/rom_pic_one.qip
+set_global_assignment -name QIP_FILE ip_core/rom_pic_two/rom_pic_two.qip
+set_global_assignment -name QIP_FILE ip_core/rom_pic_III/rom_pic_III.qip
+set_global_assignment -name QIP_FILE ip_core/rom_pic_v/rom_pic_v.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
