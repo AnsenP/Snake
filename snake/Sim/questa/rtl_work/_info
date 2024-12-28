@@ -1,0 +1,434 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/sim/questa
+T_opt
+!s110 1733406623
+Via=@M@Am0mHcbIcSLRVdl3
+04 6 4 work tb_top fast 0
+=1-a029422e883a-6751af9f-9e-2c50
+R0
+!s12b OEM100
+!s124 OEM10U17 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vapple_generate
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v
+Z3 !s110 1733406620
+!i10b 1
+!s100 eGAfjH`e=Uhb5XzR;G^z;3
+I2k9_[B121S_e>P4HU5Gb03
+R1
+w1733390142
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v
+!i122 12
+L0 3 120
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1733406620.000000
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbcd_8421
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v
+Z9 !s110 1733406619
+!i10b 1
+!s100 ^3Vnz@34?5WS2jlA;oN]>3
+Id:QUXS2YM1OMF:b5EhG?<0
+R1
+w1732845207
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v
+!i122 11
+L0 1 93
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1733406619.000000
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v|
+!i113 0
+R7
+R8
+R2
+vdata_gen
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v
+R9
+!i10b 1
+!s100 nANZ_=L3;32GK6I0AFaQH1
+If:hZPS?Zn?icefH0?i^CK2
+R1
+w1733122648
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v
+!i122 10
+L0 1 105
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v|
+!i113 0
+R7
+R8
+R2
+vgame_ctrl_unit
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v
+R9
+!i10b 1
+!s100 5zZX17`bA3=2FJI9nP9003
+Ic<O3;B=@D=zNbQT3m<5Pm0
+R1
+w1733405324
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v
+!i122 9
+L0 3 119
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v|
+!i113 0
+R7
+R8
+R2
+vhc595_ctrl
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v
+Z11 !s110 1733406617
+!i10b 1
+!s100 E^W03O>4zF8<7oYU7JAdP3
+I4eJofD]dIoJF[n]4OG2^f3
+R1
+w1733015290
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v
+!i122 1
+L0 19 81
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1733406617.000000
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v|
+!i113 0
+R7
+R8
+R2
+vkey_filter
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v
+R11
+!i10b 1
+!s100 8FT>:^3VfhUI3QmT0635H1
+IAzfebTJX68@3GA2id46`51
+R1
+w1733406595
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v
+!i122 0
+L0 1 85
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v|
+!i113 0
+R7
+R8
+R2
+vpll
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v
+R3
+!i10b 1
+!s100 >l23X6IR38bCK2Vh5Cn0H1
+IUMC2=CYCd3gCF=RPlU9]@0
+R1
+w1733400533
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v
+!i122 13
+L0 40 124
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v|
+!i113 0
+R7
+Z13 !s92 -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpll_altpll
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v
+Z14 !s110 1733406621
+!i10b 1
+!s100 eD>hBPO`V=@5KGHcD5Zf;2
+IL`^?7X7cECFB@fQeeQNNn3
+R1
+w1733401699
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v
+!i122 15
+L0 31 79
+R4
+R5
+r1
+!s85 0
+31
+Z15 !s108 1733406621.000000
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vrom
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v
+R14
+!i10b 1
+!s100 TA72Q=Cc`_3jbd:]OeX=>3
+IjM3T`lCiECedJ<1f3i<0b0
+R1
+w1733368924
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v
+!i122 14
+L0 39 61
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v|
+!i113 0
+R7
+R13
+R2
+vscore_ctrl
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v
+R9
+!i10b 1
+!s100 k_bKn1QIh89OF:2bCkVTT3
+ITdz[JRDYmkgC6:jVBlMzB1
+R1
+w1733132008
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v
+!i122 8
+L0 2 48
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v|
+!i113 0
+R7
+R8
+R2
+vseg_595_dynamic
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v
+Z16 !s110 1733406618
+!i10b 1
+!s100 z1=MVEVlo0<W=7BiQZ@z>2
+I;:]4g]J]d<czY1l=jYVXa3
+R1
+w1733121266
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v
+!i122 2
+L0 20 59
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v|
+!i113 0
+R7
+R8
+R2
+vseg_dynamic
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v
+R9
+!i10b 1
+!s100 d^J[1KgSK[H`:ZcF]HL_L3
+I<L9a]KF>7HoC==g`Q<The1
+R1
+w1733124852
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v
+!i122 7
+L0 1 205
+R4
+R5
+r1
+!s85 0
+31
+Z17 !s108 1733406618.000000
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v|
+!i113 0
+R7
+R8
+R2
+vsnake
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v
+R16
+!i10b 1
+!s100 c[;MEbZM^NSS02Q:Id`I^3
+IOYRB<b:;L86Q:<Nf7haY[1
+R1
+w1733387283
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v
+!i122 6
+L0 2 428
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v|
+!i113 0
+R7
+R8
+R2
+vsnake_top
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v
+R16
+!i10b 1
+!s100 I?R:9BaHV;Ki^S988hPX@0
+IkPg00>PEj60;NeI;`mjB70
+R1
+w1733405216
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v
+!i122 5
+L0 2 175
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v|
+!i113 0
+R7
+R8
+R2
+vtb_top
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v
+!s110 1733406622
+!i10b 1
+!s100 XzkNAHn3Sb?h6@Qckl@BO3
+I=aL9a:TlFW;6n?=^TIb2G1
+R1
+w1733406576
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v
+!i122 16
+L0 2 95
+R4
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtop_seg_595
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v
+R16
+!i10b 1
+!s100 7CO4UJVZ1DFBjeOF0;3_L2
+IoL4K0gY`2ZE]HMe`NgTzC1
+R1
+w1733124831
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v
+!i122 4
+L0 1 60
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v|
+!i113 0
+R7
+R8
+R2
+vVGA_control
+2C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v
+R16
+!i10b 1
+!s100 6?V:n]Nm4lhDHVoF8anG@3
+IF17C[VZmODj0nT]M1D`l^3
+R1
+w1733405136
+8C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v
+FC:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v
+!i122 3
+L0 8 1452
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl|C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v|
+!i113 0
+R7
+R8
+R2
+n@v@g@a_control

@@ -1,0 +1,384 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do snake_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:17 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/key_filter.v 
+# -- Compiling module key_filter
+# 
+# Top level modules:
+# 	key_filter
+# End time: 21:50:17 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:17 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/hc595_ctrl.v 
+# -- Compiling module hc595_ctrl
+# 
+# Top level modules:
+# 	hc595_ctrl
+# End time: 21:50:17 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:17 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v 
+# -- Compiling module seg_595_dynamic
+# 
+# Top level modules:
+# 	seg_595_dynamic
+# End time: 21:50:18 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:18 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v 
+# -- Compiling module VGA_control
+# 
+# Top level modules:
+# 	VGA_control
+# End time: 21:50:18 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:18 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v 
+# -- Compiling module top_seg_595
+# 
+# Top level modules:
+# 	top_seg_595
+# End time: 21:50:18 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:18 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v 
+# -- Compiling module snake_top
+# 
+# Top level modules:
+# 	snake_top
+# End time: 21:50:18 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:18 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake.v 
+# -- Compiling module snake
+# 
+# Top level modules:
+# 	snake
+# End time: 21:50:18 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:18 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v 
+# -- Compiling module seg_dynamic
+# 
+# Top level modules:
+# 	seg_dynamic
+# End time: 21:50:19 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:19 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/score_ctrl.v 
+# -- Compiling module score_ctrl
+# 
+# Top level modules:
+# 	score_ctrl
+# End time: 21:50:19 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:19 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/game_ctrl_unit.v 
+# -- Compiling module game_ctrl_unit
+# 
+# Top level modules:
+# 	game_ctrl_unit
+# End time: 21:50:19 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:19 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/data_gen.v 
+# -- Compiling module data_gen
+# 
+# Top level modules:
+# 	data_gen
+# End time: 21:50:19 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:19 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v 
+# -- Compiling module bcd_8421
+# 
+# Top level modules:
+# 	bcd_8421
+# End time: 21:50:19 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:20 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/app_generate.v 
+# -- Compiling module apple_generate
+# 
+# Top level modules:
+# 	apple_generate
+# End time: 21:50:20 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:20 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 21:50:20 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:21 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/rom.v 
+# -- Compiling module rom
+# 
+# Top level modules:
+# 	rom
+# End time: 21:50:21 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:21 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 21:50:21 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim {C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:50:21 on Dec 05,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim" C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/quartus_prj/../sim/tb_top.v 
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 21:50:22 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_top 
+# Start time: 21:50:22 on Dec 05,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "snake(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "game_ctrl_unit(fast)".
+# ** Warning: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v(72): (vopt-2685) [TFMPC] - Too few port connections for 'U0'.  Expected 5, found 4.
+# ** Warning: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/snake_top.v(72): (vopt-2718) [TFMPC] - Missing connection for port 'key_flag'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.tb_top(fast)
+# Loading work.snake_top(fast)
+# Loading work.pll(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.key_filter(fast)
+# Loading work.game_ctrl_unit(fast)
+# Loading work.apple_generate(fast)
+# Loading work.snake(fast)
+# Loading work.VGA_control(fast)
+# Loading work.rom(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.score_ctrl(fast)
+# Loading work.top_seg_595(fast)
+# Loading work.data_gen(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (12) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (21) for port 'data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst/bcd_8421_inst1 File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v Line: 177
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 220000  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+add wave -position insertpoint sim:/tb_top/*
+add wave -position insertpoint sim:/tb_top/uut/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.tb_top(fast)
+# Loading work.snake_top(fast)
+# Loading work.pll(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.key_filter(fast)
+# Loading work.game_ctrl_unit(fast)
+# Loading work.apple_generate(fast)
+# Loading work.snake(fast)
+# Loading work.VGA_control(fast)
+# Loading work.rom(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.score_ctrl(fast)
+# Loading work.top_seg_595(fast)
+# Loading work.data_gen(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (12) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (21) for port 'data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst/bcd_8421_inst1 File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v Line: 177
+run
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 220000  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+add wave -position insertpoint sim:/tb_top/uut/*
+add wave -position insertpoint sim:/tb_top/uut/U1/*
+add wave -position insertpoint sim:/tb_top/uut/U3/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.tb_top(fast)
+# Loading work.snake_top(fast)
+# Loading work.pll(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.key_filter(fast)
+# Loading work.game_ctrl_unit(fast)
+# Loading work.apple_generate(fast)
+# Loading work.snake(fast)
+# Loading work.VGA_control(fast)
+# Loading work.rom(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.score_ctrl(fast)
+# Loading work.top_seg_595(fast)
+# Loading work.data_gen(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (12) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (21) for port 'data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst/bcd_8421_inst1 File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v Line: 177
+run
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 220000  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+add wave -position insertpoint sim:/tb_top/uut/U0/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.tb_top(fast)
+# Loading work.snake_top(fast)
+# Loading work.pll(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.key_filter(fast)
+# Loading work.game_ctrl_unit(fast)
+# Loading work.apple_generate(fast)
+# Loading work.snake(fast)
+# Loading work.VGA_control(fast)
+# Loading work.rom(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.score_ctrl(fast)
+# Loading work.top_seg_595(fast)
+# Loading work.data_gen(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (8) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/top_seg_595.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (12) for port 'bcd_data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_595_dynamic.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (21) for port 'data'. The port definition is at: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/bcd_8421.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/uut/u6/seg_595_dynamic_inst/seg_dynamic_inst/bcd_8421_inst1 File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/seg_dynamic.v Line: 177
+run
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 220000  Instance: tb_top.uut.pll_inst.altpll_component.cycloneiii_pll.pll3
