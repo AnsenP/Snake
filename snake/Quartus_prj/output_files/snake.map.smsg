@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at VGA_control.v(189): always construct contains both blocking and non-blocking assignments File: C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/rtl/VGA_control.v Line: 189

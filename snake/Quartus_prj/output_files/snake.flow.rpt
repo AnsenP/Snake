@@ -1,0 +1,152 @@
+Flow report for snake
+Sat Dec 28 13:29:02 2024
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++------------------------------------+------------------------------------------------+
+; Flow Status                        ; Successful - Sat Dec 28 13:29:02 2024          ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
+; Revision Name                      ; snake                                          ;
+; Top-level Entity Name              ; snake_top                                      ;
+; Family                             ; Cyclone IV E                                   ;
+; Device                             ; EP4CE10F17C8                                   ;
+; Timing Models                      ; Final                                          ;
+; Total logic elements               ; 2,606 / 10,320 ( 25 % )                        ;
+;     Total combinational functions  ; 2,554 / 10,320 ( 25 % )                        ;
+;     Dedicated logic registers      ; 725 / 10,320 ( 7 % )                           ;
+; Total registers                    ; 725                                            ;
+; Total pins                         ; 32 / 180 ( 18 % )                              ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 262,144 / 423,936 ( 62 % )                     ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                                 ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                                 ;
++------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/28/2024 13:27:14 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; snake               ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                ;
++--------------------------------------+---------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                                                     ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+---------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 176099064449083.173536363436936                                           ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                        ; --            ; --          ; tb_top         ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_top                                                                    ; --            ; --          ; eda_simulation ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR        ; C:/FPGA_Laboratory/Course_Project/Snake_Game/snake/snake/snake/sim/questa ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                               ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; Questa Intel FPGA (Verilog)                                               ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                           ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; ../sim/tb_top.v                                                           ; --            ; --          ; tb_top         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_top                                                                    ; --            ; --          ; tb_top         ;
+; EDA_TEST_BENCH_NAME                  ; tb_top                                                                    ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1 us                                                                      ; --            ; --          ; tb_top         ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                      ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                        ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                            ; pll_bb.v                                                                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; pll.ppf                                                                   ; --            ; --          ; --             ;
+; MISC_FILE                            ; rom_bb.v                                                                  ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip_core/rom_pic_one/rom_pic_one_inst.v                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip_core/rom_pic_two/rom_pic_two_inst.v                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip_core/rom_pic_III/rom_pic_III_inst.v                                    ; --            ; --          ; --             ;
+; MISC_FILE                            ; ip_core/rom_pic_v/rom_pic_v_inst.v                                        ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                                                      ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                         ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                         ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                    ; --            ; snake_top   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                    ; --            ; snake_top   ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                    ; --            ; snake_top   ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                       ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                     ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                              ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; snake_top                                                                 ; snake         ; --          ; --             ;
++--------------------------------------+---------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 4891 MB             ; 00:00:11                           ;
+; Fitter               ; 00:01:12     ; 1.1                     ; 6176 MB             ; 00:00:26                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4708 MB             ; 00:00:00                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.2                     ; 4894 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4651 MB             ; 00:00:00                           ;
+; Total                ; 00:01:42     ; --                      ; --                  ; 00:00:38                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; Ansen            ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; Ansen            ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; Ansen            ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; Ansen            ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Ansen            ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off snake -c snake
+quartus_fit --read_settings_files=off --write_settings_files=off snake -c snake
+quartus_asm --read_settings_files=off --write_settings_files=off snake -c snake
+quartus_sta snake -c snake
+quartus_eda --read_settings_files=off --write_settings_files=off snake -c snake
+
+
+
